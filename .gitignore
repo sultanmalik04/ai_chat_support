@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+frontend/ai_chat_support/eslint.config.mjs
