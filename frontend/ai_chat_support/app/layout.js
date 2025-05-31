@@ -1,21 +1,16 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import ChatWidget from './components/ChatWidget'
-
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css';
 
 export const metadata = {
   title: 'AI Chat Support',
-  description: 'AI-powered chat support system',
-}
+  description: 'Chat with AI using Ollama',
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="bg-gray-50">
         {children}
-        <ChatWidget />
       </body>
     </html>
-  )
+  );
 }

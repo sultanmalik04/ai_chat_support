@@ -8,7 +8,7 @@ import com.sultan.ai_chat_support.model.ChatResponse;
 import com.sultan.ai_chat_support.service.ChatbotService;
 
 @RestController
-@RequestMapping("/api/chatbot")
+@RequestMapping("/api")
 @CrossOrigin(origins = { "http://localhost:5173", "http://localhost:3000" })
 public class ChatbotController {
 
